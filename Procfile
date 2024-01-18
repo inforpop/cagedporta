@@ -1,1 +1,1 @@
-web: gunicorn -b :$PORT run:newcaged
+web: gunicorn run:newcaged
