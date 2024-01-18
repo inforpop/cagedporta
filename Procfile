@@ -1,1 +1,1 @@
-web: gunicorn run:newcaged
+web: gunicorn wsgi:newcaged
